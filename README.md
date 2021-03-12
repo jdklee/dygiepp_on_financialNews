@@ -9,6 +9,8 @@ https://github.com/dwadden/dygiepp
 
 
 ## Requirements:
+** MAKE SURE THAT YOU HAVE THE DYGIE++.IPYNB OPEN WHEN GOING THROUGH THE README.
+
 1. Clone the current repository with data and notebooks from https://github.com/jdklee/dygiepp_on_financialNews
 2. create virtual environment and install requirements.txt by executing:
 
