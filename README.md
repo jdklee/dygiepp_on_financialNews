@@ -33,6 +33,9 @@ Due to constraints in labelling the news article, currently we only have 59 news
 We evaluate the dataset, collecting three metrics: precision, recall, and f-1 score
 
 
+## Dataset description
+The full dataset consists of 29,567 financial news. Articles are grouped by company name and sorted by publication time. We get rid of the title and only use the text body in the articles.
+
 ## Data Pre-processing
 In the case where your unlabeled data are stored as a directory of .txt files (one file per document), you can run python scripts/data/new-dataset/format_new_dataset.py [input-directory] [output-file] to format the documents into a jsonl file, with one line per document. If your dataset is scientific text, add the --use-scispacy flag to have SciSpacy do the tokenization.
 
@@ -130,6 +133,7 @@ def handle_empty_ner(documents):
 Usage example is available on labellingData.pynb
 
 The labels used are:
+```
 "WEA" = weapon
 "PER" = person
 "VEH" = vehicle
@@ -137,7 +141,7 @@ The labels used are:
 "LOC" = location
 "ORG" = organization
 "FAC" = facility
-
+```
 
 ## Evaluating
 
