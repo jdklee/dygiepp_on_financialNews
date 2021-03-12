@@ -9,7 +9,7 @@ https://github.com/dwadden/dygiepp
 
 
 ## Requirements:
-** MAKE SURE THAT YOU HAVE THE DYGIE++.IPYNB OPEN WHEN GOING THROUGH THE README.
+** MAKE SURE THAT YOU HAVE THE DYGIE++.IPYNB OPEN WHEN GOING THROUGH THE README. ALL USAGE EXAMPLES ARE IN THE NOTEBOOK.
 
 1. Clone the current repository with data and notebooks from https://github.com/jdklee/dygiepp_on_financialNews
 2. create virtual environment and install requirements.txt by executing:
@@ -130,7 +130,7 @@ def handle_empty_ner(documents):
                 sent.ner=[]
 ```
 
-Usage example is available on labellingData.pynb
+Usage example is available on dyGIE++.pynb
 
 The labels used are:
 ```
